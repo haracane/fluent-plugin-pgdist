@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fluent-plugin-pgdist"
   gem.homepage = "http://github.com/haracane/fluent-plugin-pgdist"
   gem.license = "MIT"
-  gem.summary = "Helper for creating RubyGem project"
-  gem.description = "Helper for creating RubyGem project"
+  gem.summary = "Fluentd plugin for distribute insert into PostgreSQL"
+  gem.description = "Fluentd plugin for distribute insert into PostgreSQL"
   gem.email = "haracane@gmail.com"
   gem.authors = ["Kenji Hara"]
   # dependencies defined in Gemfile
