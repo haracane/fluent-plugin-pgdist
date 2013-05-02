@@ -6,8 +6,8 @@ source "http://rubygems.org"
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
 
-gem "fluentd"
-gem "pg"
+gem "fluentd", "~> 0.10.33"
+gem "pg", "~> 0.15.1"
 
 group :development do
   gem "rspec", "~> 2.12.0"
