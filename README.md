@@ -13,7 +13,7 @@ Define match directive for pgdist in fluentd config file(ex. fluent.conf):
 
     <match pgdist.input>
       type pgdist
-      host localhost 
+      host localhost
       username postgres
       password postgres
       database pgdist
@@ -170,11 +170,11 @@ Check file data:
  * Database name
 * username
  * Database user name
-* password 
+* password
  * Database user password
 * table_moniker
  * Ruby script that returns the table name of each record
-* insert_filter 
+* insert_filter
  * Ruby script that converts each record into array for insert
 * columns
  * Column names in insert SQL
@@ -196,7 +196,7 @@ Check file data:
  * Ruby script that returns the sequence file name of each table
 
 ## Contributing to fluent-plugin-pgdist
- 
+
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
 * Fork the project.

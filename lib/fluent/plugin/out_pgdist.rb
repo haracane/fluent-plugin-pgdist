@@ -5,7 +5,7 @@ class Fluent::PgdistOutput < Fluent::BufferedOutput
   include Fluent::SetTagKeyMixin
 
   config_param :host, :string
-  config_param :port, :integer, :default => 5432 
+  config_param :port, :integer, :default => 5432
   config_param :database, :string
   config_param :username, :string
   config_param :password, :string, :default => ''
