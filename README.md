@@ -1,4 +1,4 @@
-# fluent-plugin-pgdist
+# fluent-plugin-pgdist, a plugin for [Fluentd](http://fluentd.org)
 
 fluent-plugin-pgdist is a fluentd plugin for distribute insert into PostgreSQL.
 
